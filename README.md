@@ -1,60 +1,60 @@
-<img width="1788" height="3495" alt="image" src="https://github.com/user-attachments/assets/2010ad6c-d007-42b8-aafd-dbe793f19c34" /> 
+ <img width="1788" height="3495" alt="image" src="https://github.com/user-attachments/assets/2010ad6c-d007-42b8-aafd-dbe793f19c34" /> 
 
-## dark mode 
-<img width="1788" height="3495" alt="image" src="https://github.com/user-attachments/assets/ad370b96-9d66-469c-8ea5-cac4c745a283" />
+ 
+❄️ Elite Cool - Digital Store & Management System
+A high-performance sales and management platform for air conditioning units, featuring a futuristic 3D user experience and a robust backend for inventory and sales tracking.
 
-❄️ Elite Cool - Digital Store System
-نظام إدارة ومبيعات تكييفات متكامل، يجمع بين تجربة مستخدم 3D عصرية ولوحة تحكم قوية لإدارة المخزون والمبيعات، مع دعم كامل للوضع الليلي والنهاري.
-
-🛠 التقنيات المستخدمة (Tech Stack)
-Backend: PHP 8.1 (OOP & PDO).
+🛠 Tech Stack
+Backend: PHP 8.1 (PDO & Session Management).
 
 Database: MySQL.
 
-UI/UX: Tailwind CSS & Glassmorphism.
+UI/UX: Tailwind CSS with Glassmorphism effects.
 
-3D Engine: Three.js.
+3D Graphics: Three.js (Interactive backgrounds & shapes).
 
-Interactions: JavaScript (AJAX & Fetch API).
+Frontend Logic: JavaScript (ES6+, Fetch API, AJAX).
 
-👥 مستويات الوصول (Roles)
-👤 حساب المستخدم (User)
-واجهة 3D: تصفح المنتجات في بيئة تفاعلية حديثة.
+👥 System Roles & Permissions
+👤 User (Customer)
+Interactive UI: Browse products in a 3D-animated environment.
 
-الشراء الذكي: نظام شراء مربوط بجلسة المستخدم مع دفع عبر InstaPay.
+Smart Purchase: Secure checkout system integrated with InstaPay payment flow.
 
-استشارات فنية: فورم متصل بالبريد الإلكتروني لطلب الدعم الفني.
+Technical Consultation: A dedicated modal form to send technical inquiries directly via email.
 
-تجاوب كامل: عرض مثالي على كافة الشاشات (Responsive).
+Adaptive Theme: Instant switching between Dark and Light modes for optimal comfort.
 
-👨‍💼 لوحة الإدارة (Admin)
-إدارة المخزن: إضافة، تعديل، وحذف الأصناف (CRUD).
+👨‍💼 Administrator (Admin)
+Inventory Control: Full CRUD (Create, Read, Update, Delete) operations for products.
 
-متابعة الكميات: تحديث تلقائي للمخزون عند كل عملية شراء.
+Stock Tracking: Automatic inventory deduction upon every successful purchase.
 
-تقارير المبيعات: سجل كامل للعمليات (اسم العميل، السعر، التاريخ، والمنتج).
+Sales Reports: A detailed log of all transactions (Customer Name, Product, Price, and Timestamp).
 
-📂 الهيكل البرمجي (Project Structure)
-index_user.php: الواجهة الرئيسية للمتجر.
+📂 Project Structure
+index_user.php: The main landing page and product storefront.
 
-product_details.php: عرض المواصفات الفنية لكل تكييف.
+product_details.php: Dynamic page for technical specifications.
 
-buy.php: محرك معالجة عمليات الشراء وخصم المخزون.
+buy.php: The core engine for processing orders and updating stock levels.
 
-send_email.php: معالج إرسال الاستشارات البريدية.
+send_email.php: Handler for processing consultation forms.
 
-db.php: ملف الربط الآمن بقاعدة البيانات.
+db.php: Centralized secure database connection.
 
-🚀 التشغيل السريع (Quick Start)
-قم برفع قاعدة البيانات من ملف database.sql.
+🚀 Quick Installation
+Database: Import the database.sql file into your MySQL server.
 
-عدّل بيانات الاتصال في db.php.
+Configuration: Update the credentials in db.php.
 
-اضبط بريدك الإلكتروني في send_email.php لاستقبال الاستشارات.
+Mail Setup: Configure your receiver email address in send_email.php.
 
-🌟 مميزات التصميم
-Dark/Light Mode: تبديل ذكي للألوان يتناسب مع راحة العين.
+Launch: Deploy to a PHP-enabled server (XAMPP, WAMP, or live hosting).
 
-Micro-animations: حركات انسيابية للمنتجات وعناصر الموقع.
+🌟 Key Design Features
+Micro-animations: Floating 3D elements and smooth transition effects.
 
-Secure Access: حماية لعمليات الشراء تمنع غير المسجلين من الطلب.
+Responsive Design: Fully optimized for Mobile, Tablet, and Desktop.
+
+Access Control: Purchase logic is restricted to logged-in users only.
